@@ -1,4 +1,3 @@
-/h2/ Members /h2/
 Willeam Mendez (wimendez@calpoly.edu)
 John Guillermo (jguill07@calpoly.edu)
 Juan Cisneros (jcisne23@calpoly.edu)
