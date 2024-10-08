@@ -13,6 +13,7 @@ User Stories
   6.) As an open-minded music fan, I want to listen to random songs from anywhere so that I can expand my music knowledge.
 
   7.) As a user, I want to update my account settings, including my preferences for music genres and moods, so that I can personalize my experience.
+  
   8.) As a fan of this certain album, I want to listen to the other songs of the album to get the full experience of the album.
 
   9.) As an admin, I want to cater the trending page in order to include the most highly reviewed and listened to music.
