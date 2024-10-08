@@ -47,13 +47,18 @@ Exceptions
   7.) Exception: User searches for album that doesn't exist in the list.
         Tell yser to enter another album.
 
-  8.)
+  8.) Exception: User tries to access age restricted music while not being of age.
+        Tell user that they aren't allowed to see this content and should look for something else.
 
-  9.)
+  9.) Exception: User sorts for songs with a language that doesn't exist.
+        Tell user to enter a valid language.
 
-  10.)
+  10.) Exception: User sorts for a language but no songs exist in the list.
+        Tell user that no song was found, and search another language.
 
-  11.)
+  11.) Exception: User enters an invalid song length to sort by.
+        Tell user to enter a valid song length.
 
-  12.)
+  12.) Exception: User enters a song length, but no songs are found.
+        Tell user that no songs are found, enter a different length.
 
