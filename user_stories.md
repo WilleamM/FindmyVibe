@@ -12,5 +12,48 @@ User Stories
 
   6.) As an open-minded music fan, I want to listen to random songs from anywhere so that I can expand my music knowledge.
 
+  7.) As a fan of this certain artist, I want to listen to their songs so that I can make sure I listen to them all.
+
+  8.) As a fan of this certain album, I want to listen to the other songs of the album to get the full experience of the album
+
+  9.)
+
+  10.)
+
+  11.)
+
+  12.)
+
 Exceptions
+
+  1.) Exception: User searches for rating out of range
+        Tell user to enter rating in valid range.
+  
+  2.) Exception: User searches for song not on recommendation list
+        Tell user to enter a different song name.
+        
+  3.) Exception: User searches for genre that no songs have
+        Tell user to enter a different genre.
+
+  4.) Exception: User searches for artist that has no songs on the list.
+        Tell user artist not found. Enter another
+
+  5.) Exception: User searches for range of years that don't contain songs.
+        Tell user to enter a different range
+
+  6.) Exception: User searches for range of years that are invalid.
+        Tell user to enter a different range
+
+  7.) Exception: User searches for album that doesn't exist in the list.
+        Tell yser to enter another album.
+
+  8.)
+
+  9.)
+
+  10.)
+
+  11.)
+
+  12.)
 
