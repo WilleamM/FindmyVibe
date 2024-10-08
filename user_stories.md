@@ -14,11 +14,11 @@ User Stories
 
   7.) As a fan of this certain artist, I want to listen to their songs so that I can make sure I listen to them all.
 
-  8.) As a fan of this certain album, I want to listen to the other songs of the album to get the full experience of the album
+  8.) As a fan of this certain album, I want to listen to the other songs of the album to get the full experience of the album.
 
-  9.)
+  9.) As an admin, I want to cater the trending page in order to include the most highly reviewed and listened to music.
 
-  10.)
+  10.) As an admin, I want to be able to 
 
   11.)
 
