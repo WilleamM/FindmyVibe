@@ -1,28 +1,27 @@
 User Stories
 
-  1.) As a bad song enjoyer, I want to listen to the lowest rated songs, so that I can know what not do when making a song.
+  1.) As a user, I want to create and manage playlists, so that I can organize my favorite songs for different moods or occasions.
   
-  2.) As a good song enjoyer, I want to watch the highest rated songs, so that I can listen to the best music available
+  2.) As a music enthusiast, I want to discover new songs based on my favorite genres, so that I can expand my music library.
 
-  3.) As a jazz fan, I want to search any songs of the jazz genre, so that I can listen to music similar to what I already like.
+  3.) As a user, I want to search for music by artist, song name, genre, and mood/vibe, so that I can quickly find specific tracks.
 
-  4.) As a young music enjoyer, I want to search for songs released in the last five years so that I can keep up with what everyones listening to.
+  4.) As a user, I want to see a trending page that highlights popular songs, so that I can stay updated with current music trends.
 
-  5.) As a music oldhead, I want to listen to songs from the 60s, so that I could reminisce about the good old days of music.
+  5.) As a user, I want to add songs to my playlists directly from the recommendation or search results, so that I can curate my playlists efficiently.
 
   6.) As an open-minded music fan, I want to listen to random songs from anywhere so that I can expand my music knowledge.
 
-  7.) As a fan of this certain artist, I want to listen to their songs so that I can make sure I listen to them all.
-
+  7.) As a user, I want to update my account settings, including my preferences for music genres and moods, so that I can personalize my experience.
   8.) As a fan of this certain album, I want to listen to the other songs of the album to get the full experience of the album.
 
   9.) As an admin, I want to cater the trending page in order to include the most highly reviewed and listened to music.
 
-  10.) As an admin, I want to be able to 
+  10.) As an admin, I want to monitor user activity and engagement on the platform, so that I can identify trends and improve the user experience.
+ 
+  11.)As an admin, I want to update music catalog information, including adding new songs and genres, so that users have access to the latest music offerings.
 
-  11.)
-
-  12.)
+  12.)As an admin, I want to analyze song ratings and popularity metrics, so that I can provide insights and recommendations for the music catalog.
 
 Exceptions
 
