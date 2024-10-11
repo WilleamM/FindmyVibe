@@ -1,2 +1,2 @@
-# API Specifications
+# API Specifications for FindmyVibe
 `hello`
