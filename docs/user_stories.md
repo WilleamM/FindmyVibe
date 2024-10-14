@@ -45,7 +45,7 @@ Exceptions
         Tell user to enter a different range
 
   7.) Exception: User searches for album that doesn't exist in the list.
-        Tell yser to enter another album.
+        Tell user to enter another album.
 
   8.) Exception: User tries to access age restricted music while not being of age.
         Tell user that they aren't allowed to see this content and should look for something else.
