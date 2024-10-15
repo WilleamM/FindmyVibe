@@ -256,5 +256,22 @@ Rate a specific song given the Song Id.
 ```
 
 ## 7. Catalog (Juan)
+
+### 7.1 Get Inventory Summary - `/catalog/audit` (GET)
+
+Return a summary of current songs, albums, artists, and genres.
+
+**Response:**
+```json
+[
+    {
+        "numberOfSongs": "integer",
+        "numberOfAlbums": "integer",
+        "numberOfArtists": "integer",
+        "numberOfGenres": "integer"
+    }
+]
+```
+
 ## 8. Admin Functions
 
