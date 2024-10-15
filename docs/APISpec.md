@@ -275,3 +275,88 @@ Return a summary of current songs, albums, artists, and genres.
 
 ## 8. Admin Functions
 
+### 8.1. Add a song - `/admin/songs` (POST)
+
+Admins can add a new song to the catalog. An unique songId will be created and returned.
+
+**Request:** 
+
+```json
+{
+  "title": "string",
+  "artist": "string",
+  "genre": "string",
+  "mood": "string",
+  "releaseDate": [d,m,y] /* Day, month, year*/
+  "rating": "number"
+}
+```
+
+**Response:**
+
+```json
+{
+    "songId":"integer"
+}
+```
+
+### 8.2. Delete a song - `/admin/songs/{songId}` (POST)
+
+Admin can delete a song from the catalog.
+
+**Request:** 
+
+```json
+{
+    "songId":"integer"
+}
+```
+
+**Response:**
+
+```json
+{
+    "message":"string"
+}
+```
+
+### 8.3. Add a song to the Trending Page - `/admin/trending/songs` (POST)
+
+Admins can manually a new song to the trending page. Note: Songs will automatically be put into the trending page when they reach a specific rating.
+
+**Request:** 
+
+```json
+{
+    "songId":"integer"
+}
+```
+
+**Response:**
+
+```json
+{
+    "message":"string"
+}
+```
+
+### 8.4. Delete a song from the Trending Page - `/admin/trending/songs/{songId}` (POST)
+
+Admin can manually delete a song from the trending page. Note: Songs will automatically be removed from the trending page if their rating goes under a specific threshold.
+
+**Request:** 
+
+```json
+{
+    "songId":"integer"
+}
+```
+
+**Response:**
+
+```json
+{
+    "message":"string"
+}
+```
+
