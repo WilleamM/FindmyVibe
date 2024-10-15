@@ -1,75 +1,17 @@
 Playlists
+    Bob wants to create a playlist called "Road Trip" and add three songs to it. To do this, he:
 
-    1) Create Playlist - POST /playlists
-        User creates the initial start to the playlist
-        
-        Request: {
-                    "userId": "12345",
-                    "name": "Chill Vibes",
-                    "description": "Songs to relax and unwind",
-                }
+    1) Starts by calling POST /playlists to create a new playlist with ID 1234:
+    2) Then Bob calls POST /playlists/3001/songs/SONG_001 and passes in a songId that passes in a quantity of 1 to add the first song
+    3) He makes another call to POST /playlists/3001/songs/SONG_002 and passes in a songId that passes in a quantity of 1 to add the second song
+    4) He makes another call to POST /playlists/3001/songs/SONG_002 and passes in a songId that passes in a quantity of 1 to add the third song
 
-        Response:{
-                    "playlistId": "98765",
-                    "message": "Playlist created successfully"
-                }
-
-
-    2) Add Song to Playlist - POST /playlists/{playlist_id}/songs
-        User adds song to the playlist
-        
-        Request: {
-                    "playlistId": "98765",
-                    "songId": "54321"
-                }
-
-        Response: {
-                    "message": "song successfully added"
-                }
-
-    3) View Playlist - GET /playlists/{playlist_id}
-        Allows user to retrive an existing playlist
-
-        Request: {
-                    "playlistId": "333"
-                }
-
-        Response: {
-                    "playlistId": "98765",
-                    "name": "Chill Vibes",
-                    "description": "Songs to relax and unwind",
-                    "songs": [
-                        {
-                        "songId": "54321",
-                        "title": "Lo-fi Beats",
-                        "artist": "DJ Cool",
-                        }
-                    ]
-                    }
+    At the end of this sequence, Bob has successfully created a playlist called "Road Trip" and added three songs
 
 
 Trending
+    Bob wants to know the current top 5 trending songs
 
-    1) Get trending list - GET /trending/
-        Returns a list of current top trending songs
+    1) Bob starts by calling GET /trending to fetch the list of top trending songs and passes the integer 5 to recive the top 5 trending songs
 
-        Response: {
-                "trending_songs": [
-                    {
-                    "songId": "12345",
-                    "title": "Hit Song 1",
-                    "artist": "Famous Artist",
-                    "genre": "Famous Artist",
-                    "mood": "sad",
-                    "rating": 4.8
-                    },
-                    {
-                    "songId": "67890",
-                    "title": "Hit Song 2",
-                    "artist": "Popular Band",
-                    "genre": "rock",
-                    "mood": "hype",
-                    "rating": 4.7
-                    }
-                ]
-                }
+    This return the top number of 5 trending songs ()
