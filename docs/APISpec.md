@@ -51,7 +51,7 @@ Allows for user to search for music based upon its artist, name, genre, and mood
 ]
 ```
 
-### 1.3 Update User Preferences - `/users/{userId}/preferences` (POST)
+### 1.3 Update User Preferences - `/users/{userId}/update_preferences` (POST)
 
 Updates the users preferences in certain genres and moods.
 
