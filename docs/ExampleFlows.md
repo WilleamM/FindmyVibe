@@ -10,7 +10,7 @@ Playlists
 
 
 Trending
-    Bob wants to know the current top 5 trending songs
+    Bob wants to know the top 5 trending songs
 
     1) Bob starts by calling GET /trending to fetch the list of top trending songs and passes the integer 5 to recive the top 5 trending songs
 
