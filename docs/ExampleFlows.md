@@ -81,6 +81,17 @@ John, a music lover, has just joined FindmyVibe. He's excited to explore new mus
 ```
 John can now enjoy his new playlist that consists of one song!
 
+## 2. User Updating Genre And Mood Preference Example Flow
+
+Gary comes to FindMyVibe because he wants to update his mood and genre preferences to ROCK and HAPPY so that he is recommended different music in hopes that he will feel better. 
+
+Gary will do this by calling POST {userId}/update_preferences and performing the following actions:
+
+1. Gary first gets his user id , which is 8295  
+2. He then calls POST 8295/update_preferences, and puts for his genre preference ROCK and for mood preference HAPPY.
+3. Finally, he calls GET /userInfo/8295 to confirm that his genre and mood preference have changed.
+
+Gary listens to HAPPY ROCK music and now feels much better because of it. 
 
 
 
