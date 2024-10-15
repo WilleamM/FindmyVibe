@@ -259,7 +259,7 @@ Rate a specific song given the Song Id.
 
 ## 7. Catalog
 
-### 7.1 Get Inventory Summary - `/catalog/audit` (GET)
+### 7.1 Get Inventory Summary - `/catalog/` (GET)
 
 Return a summary of current songs, albums, artists, and genres.
 
