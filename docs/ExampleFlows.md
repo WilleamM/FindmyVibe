@@ -94,19 +94,19 @@ Gary listens to HAPPY ROCK music and now feels much better because of it.
 
 ## 3. User Creating Playlist and Adding Songs Example Flow:
 
-     Bob wants to create a playlist called "Road Trip" and add three songs to it. 
-     
-     1) He starts by calling POST /playlists to create a new playlist with ID 3001
-     2) He then calls POST /playlists/3001/songs/SONG_001 and passes in a quantity of 1 and the songID to add the first song
-     3) Once again calls POST /playlists/3001/songs/SONG_001 and passes in a quantity of 1 and the songID to add the second song
-     4) Once again calls POST /playlists/3001/songs/SONG_001 and passes in a quantity of 1 and the songID to add the third song
+Bob wants to create a playlist called "Road Trip" and add three songs to it. 
 
-     At the end of this sequence, Bob has successfully created a playlist called "Road Trip" and added three songs to it.
+1) He starts by calling POST /playlists to create a new playlist with ID 3001
+2) He then calls POST /playlists/3001/songs/SONG_001 and passes in a quantity of 1 and the songID to add the first song
+3) Once again calls POST /playlists/3001/songs/SONG_001 and passes in a quantity of 1 and the songID to add the second song
+4) Once again calls POST /playlists/3001/songs/SONG_001 and passes in a quantity of 1 and the songID to add the third song
+
+At the end of this sequence, Bob has successfully created a playlist called "Road Trip" and added three songs to it.
 
 Trending:
 
-    Bob wants to check the top 10 trending songs
+Bob wants to check the top 10 trending songs
 
-    1) He starts by calling GET /trending to fetch the list of trending songs and passes 10 to get the top 10 trending songs
+1) He starts by calling GET /trending to fetch the list of trending songs and passes 10 to get the top 10 trending songs
 
 At the end of this sequence, Bob has successfully received the top 10 trending songs as a playlist
