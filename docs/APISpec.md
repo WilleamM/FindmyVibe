@@ -2,7 +2,7 @@
 
 ## 1. User Management
 
-### 1.1 User Information - `/users/userInfo/{userId}/` (GET)
+### 1.1 User Information - `/users/signup/` (POST)
 
 Gets information about the user.
 
@@ -13,6 +13,8 @@ Gets information about the user.
     {
         "userId": "integer",
         "userName": "string",
+        "email": "string",
+        "password": "string",
         "genrePreferences": "string",
         "moodPreferences": "string",
         "playlists": ["string"], /* The list of playlists made and managed by user */
