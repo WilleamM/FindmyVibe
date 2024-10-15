@@ -27,7 +27,7 @@ Create a playlist with given information, returns playlistId.
 
 ### 2.2. Add Song to Playlist - `/playlist/{playlistId}/songs` (POST)
 
-Add a song to the playlist
+Add a song to the playlist.
 
 **Request:**
 ```json
@@ -129,7 +129,7 @@ Get the song recommendations based on user preferences or the genre and mood of 
 
 ### 5.1. Get Album - `/albums/{albumId}` (GET)
 
-Get the details of a specific album including songs, artist, and genres within the album
+Get the details of a specific album including songs, artist, and genres within the album.
 
 **Response:**
 
@@ -148,7 +148,7 @@ Get the details of a specific album including songs, artist, and genres within t
 
 ### 6.1. Get Song - `/songs/{songId}` (GET)
 
-Fetch detailed information about a specific song
+Fetch detailed information about a specific song.
 
 **Response:**
 
