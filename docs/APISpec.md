@@ -2,6 +2,77 @@
 
 ## 1. User Management (Juan)
 
+### 1.1 User Information - `/users/userInfo/{userId}/` (GET)
+
+Gets information about the user.
+
+**Response:**
+
+```json
+[
+    {
+        "userId": "integer",
+        "userName": "string",
+        "genrePreferences": "string",
+        "moodPreferences": "string",
+        "playlists": ["string"], /* The list of playlists made and managed by user */
+    }
+]
+```
+
+### 1.2 User Search - `/users/{user_id}/searchForMusic/` (GET)
+
+Allows for muser to search for music based upon its artist, name, genre, and mood/vibe.
+
+**Query Parameters:**
+
+- `title` (optional): The name of the song.
+- `artist` (optional): The artist of a song.
+- `rating` (optional): Filters songs by rating.
+- `year` (optional): Filters songs by year
+- `album` (optional): The name of an album.
+- `genre` (optional): Filters songs by genre.
+- `mood` (optional): Filters songs by mood.
+
+**Response:**
+
+```json
+[
+    {
+        "title": "string",
+        "artist": "string",
+        "rating": "integer",
+        "album": "string",
+        "genre": "string",
+        "mood": "string",
+    }
+]
+```
+
+### 1.3 Update User Preferences - `/users/{userId}/preferences/` (POST)
+
+Updates the users preferences in certain genres and moods.
+
+**Request:**
+
+```json
+[
+    {
+        "genrePreferences": "string",
+        "moodPreferences": "string"
+    }
+]
+```
+
+**Response:**
+
+```json
+{
+    "success": "boolean"
+}
+```
+
+
 ## 2. Playlists Management (Zoila)
 
 ### 2.1. Create Playlist - `/playlists` (POST)
