@@ -174,7 +174,7 @@ Fetches a list of a specified amount of songs in the trending page.
 }
 ```
 
-## 4. Song Recommendations(Will)
+## 4. Song Recommendations
 
 ### 4.1. Get Song Recommendations - `/songs/recommendations` (GET)
 
@@ -196,7 +196,7 @@ Get the song recommendations based on user preferences or the genre and mood of 
 ]
 ```
   
-## 5. Albums (Will)
+## 5. Albums
 
 ### 5.1. Get Album - `/albums/{albumId}` (GET)
 
