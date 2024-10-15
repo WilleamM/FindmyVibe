@@ -1,6 +1,6 @@
 # API Specifications for FindmyVibe
 
-## 1. User Management (Juan)
+## 1. User Management
 
 ### 1.1 User Information - `/users/userInfo/{userId}/` (GET)
 
@@ -73,7 +73,7 @@ Updates the users preferences in certain genres and moods.
 ```
 
 
-## 2. Playlists Management (Zoila)
+## 2. Playlists Management
 
 ### 2.1. Create Playlist - `/playlists` (POST)
 
@@ -150,7 +150,7 @@ Add a song to the playlist.
 ]
 ```
 
-## 3. Trending Page (Zoila)
+## 3. Trending Page 
 
 ### 3.1. Get Trending List - `/trending` (GET)
 
@@ -215,7 +215,7 @@ Get the details of a specific album including songs, artist, and genres within t
 }
 ```
 
-## 6. Songs (Will)
+## 6. Songs
 
 ### 6.1. Get Song - `/songs/{songId}` (GET)
 
@@ -255,7 +255,7 @@ Rate a specific song given the Song Id.
 }
 ```
 
-## 7. Catalog (Juan)
+## 7. Catalog
 
 ### 7.1 Get Inventory Summary - `/catalog/audit` (GET)
 
