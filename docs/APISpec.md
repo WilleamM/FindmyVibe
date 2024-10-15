@@ -24,7 +24,7 @@ Gets information about the user.
 
 ### 1.2 User Search - `/users/{user_id}/searchForMusic/` (GET)
 
-Allows for muser to search for music based upon its artist, name, genre, and mood/vibe.
+Allows for user to search for music based upon its artist, name, genre, and mood/vibe.
 
 **Query Parameters:**
 
