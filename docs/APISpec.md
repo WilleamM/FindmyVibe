@@ -84,10 +84,6 @@ Rate a specific song given the Song Id.
 ]
 ```
 
-
-
-## 5. Albums (Will)
-## 6. Songs (Will)
 ## 7. Catalog (Juan)
 ## 8. Admin Functions
 
