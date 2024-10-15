@@ -51,7 +51,7 @@ Allows for user to search for music based upon its artist, name, genre, and mood
 ]
 ```
 
-### 1.3 Update User Preferences - `/users/{userId}/preferences` (POST)
+### 1.3 Update User Preferences - `/users/{userId}/update_preferences` (POST)
 
 Updates the users preferences in certain genres and moods.
 
@@ -259,7 +259,7 @@ Rate a specific song given the Song Id.
 
 ## 7. Catalog
 
-### 7.1 Get Inventory Summary - `/catalog/audit` (GET)
+### 7.1 Get Inventory Summary - `/catalog/` (GET)
 
 Return a summary of current songs, albums, artists, and genres.
 
