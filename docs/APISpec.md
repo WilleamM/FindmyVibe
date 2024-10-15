@@ -2,7 +2,7 @@
 
 ## 1. User Management
 
-### 1.1 User Information - `/users/signup/` (POST)
+### 1.1 User Information - `/users/signup` (POST)
 
 Gets information about the user.
 
@@ -22,7 +22,7 @@ Gets information about the user.
 ]
 ```
 
-### 1.2 User Search - `/users/{user_id}/searchForMusic/` (GET)
+### 1.2 User Search - `/users/{user_id}/search` (GET)
 
 Allows for user to search for music based upon its artist, name, genre, and mood/vibe.
 
@@ -51,7 +51,7 @@ Allows for user to search for music based upon its artist, name, genre, and mood
 ]
 ```
 
-### 1.3 Update User Preferences - `/users/{userId}/preferences/` (POST)
+### 1.3 Update User Preferences - `/users/{userId}/preferences` (POST)
 
 Updates the users preferences in certain genres and moods.
 
@@ -114,7 +114,7 @@ Add a song to the playlist.
 ```json
 [
   {
-      "message": "string"
+    "success": "boolean"
   }
 ]
 ```
@@ -245,7 +245,7 @@ Rate a specific song given the Song Id.
 
 ```json
 {
-  "rating":"integer"
+    "rating":"integer"
 }
 ```
 
@@ -253,7 +253,7 @@ Rate a specific song given the Song Id.
 
 ```json
 {
-  "message': "string"
+    "success": "boolean"
 }
 ```
 
@@ -318,7 +318,7 @@ Admin can delete a song from the catalog.
 
 ```json
 {
-    "message":"string"
+    "success": "boolean"
 }
 ```
 
@@ -338,7 +338,7 @@ Admins can manually a new song to the trending page. Note: Songs will automatica
 
 ```json
 {
-    "message":"string"
+    "success": "boolean"
 }
 ```
 
@@ -358,7 +358,7 @@ Admin can manually delete a song from the trending page. Note: Songs will automa
 
 ```json
 {
-    "message":"string"
+    "success": "boolean"
 }
 ```
 
