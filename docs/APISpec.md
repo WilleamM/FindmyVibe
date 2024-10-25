@@ -342,7 +342,7 @@ Admins can manually a new song to the trending page. Note: Songs will automatica
 }
 ```
 
-### 8.4. Delete a song from the Trending Page - `/admin/trending/songs/{songId}` (POST)
+### 8.4. Delete a song from the Trending Page - `/admin/trending/songs/{songId}` (DELETE)
 
 Admin can manually delete a song from the trending page. Note: Songs will automatically be removed from the trending page if their rating goes under a specific threshold.
 
